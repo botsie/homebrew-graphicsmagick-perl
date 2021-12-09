@@ -1,5 +1,5 @@
-class Graphicsmagick < Formula
-  desc "Image processing tools collection"
+class Graphicsmagick_perl < Formula
+  desc "Image processing tools collection with Perl API"
   homepage "http://www.graphicsmagick.org/"
   url "https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.36/GraphicsMagick-1.3.36.tar.xz"
   sha256 "5d5b3fde759cdfc307aaf21df9ebd8c752e3f088bb051dd5df8aac7ba7338f46"
@@ -14,6 +14,8 @@ class Graphicsmagick < Formula
     sha256 mojave:         "40b04368925d79d6e6fbe76014e5db18c7378eda414beb1b41de9bb8db6a69a0"
     sha256 x86_64_linux:   "c8be14cb6bc71dd149d6ad2b49941b9192d375e66b011c99decba30e8dae6438"
   end
+
+  conflicts_with "graphicsmagick"
 
   depends_on "pkg-config" => :build
   depends_on "freetype"

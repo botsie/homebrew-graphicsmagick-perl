@@ -1,4 +1,4 @@
-class Graphicsmagick_perl < Formula
+class GraphicsmagickPerl < Formula
   desc "Image processing tools collection with Perl API"
   homepage "http://www.graphicsmagick.org/"
   url "https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick/1.3.36/GraphicsMagick-1.3.36.tar.xz"
